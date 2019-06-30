@@ -1,0 +1,116 @@
+body {
+  margin: 0px;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.header {
+  margin: 0;
+  padding: 0;
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 100% !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 100% !important;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 100% !important;
+  }
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 100% !important;
+  }
+}
+/**=====================
+  Header Nav Component 
+========================*/
+
+/*Header Nav Container*/
+.headernavcontainer {
+  margin: 0;
+  background-image: url("https://1t1rycb9er64f1pgy2iuseow-wpengine.netdna-ssl.com/wp-content/uploads/2017/11/banner-widget-bg-v1.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+/**Header bar tabs no scroll*/
+.headerBarNoScroll {
+  margin: 0;
+  padding: 15;
+  position: fixed;
+  width: 100%;
+  color: white;
+  z-index: 999;
+  font-size: x-large;
+  font-weight: 800;
+}
+.tabsSrolledStyle {
+  transition: background 1s;
+  background-color: #008000;
+  top: 0;
+}
+
+/**===============================
+  *   Layout Styles
+  ================================*/
+
+/*==== Page Header =======*/
+
+.pageHeader {
+}
+
+/*==== Page Sidebar =======*/
+
+.pageSidebar {
+  border: 2px solid red;
+  top: 5%;
+  position: fixed;
+  width: 250px;
+  height: 90%;
+}
+
+/*==== Page main =======*/
+/*----------------------*/
+
+main {
+}
+
+/* main header*/
+.mainHeader {
+  border: 2px solid blue;
+  margin: 5px;
+}
+/* main sidebar*/
+.mainSidebar {
+  border: 2px solid blue;
+  margin: 5px;
+}
+/* main content*/
+.mainContent {
+  border: 2px solid blue;
+  margin: 5px;
+}
+/* main footer*/
+.mainFooter {
+  border: 2px solid blue;
+  margin: 5px;
+}
+
+/*==== Page footer =======*/
+
+.pageFooter {
+  border: 2px solid red;
+  height: 5%;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

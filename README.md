@@ -1,2 +1,0 @@
-# labamFes
-Created with CodeSandbox
